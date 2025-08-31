@@ -1,0 +1,39 @@
+baseURL = "https://didhiti.in/"
+title = "didhiti"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+paginate = 10
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+    contentDir = "content/en"
+  [languages.kn]
+    weight = 2
+    languageName = "ಕನ್ನಡ"
+    contentDir = "content/kn"
+  [languages.sa]
+    weight = 3
+    languageName = "संस्कृतम्"
+    contentDir = "content/sa"
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowReadingTime = true
+  ShowWordCount = false
+  ShowToc = false
+  hideMeta = true
+  disableSpecial1stPost = true
+  disableAnchoredHeadings = true
+  showLanguageSwitcher = true
+
+[outputs]
+  home = ["HTML", "RSS"]
