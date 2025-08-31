@@ -11,15 +11,15 @@ enableRobotsTXT = true
   [languages.en]
     weight = 1
     languageName = "English"
-    contentDir = "content/en/posts"
+    contentDir = "content/en"
   [languages.kn]
     weight = 2
     languageName = "ಕನ್ನಡ"
-    contentDir = "content/kn/posts"
+    contentDir = "content/kn"
   [languages.sa]
     weight = 3
     languageName = "संस्कृतम्"
-    contentDir = "content/sa/posts"
+    contentDir = "content/sa"
 
 [params]
   env = "production"
