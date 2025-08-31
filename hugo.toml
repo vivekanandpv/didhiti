@@ -1,3 +1,2 @@
-baseURL = 'https://didhiti.in/'
-languageCode = 'en-us'
-title = 'Didhiti'
+baseURL = "https://didhiti.in/"
+theme   = "PaperMod"
