@@ -15,6 +15,13 @@ body {
     letter-spacing: 0.03rem;
 }
 
+.post-content {
+    max-width: 65ch;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
 h1 {
     font-size: 2.2rem;
     margin-bottom: 2rem;
