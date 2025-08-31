@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Kannada:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Mono:wght@400;500;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Kannada:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
 
 
 body {
@@ -75,4 +74,71 @@ footer {
     a {
         color: #c9d1d9;
     }
+}
+
+.sa-title {
+    font-family: 'Tiro Devanagari Sanskrit';
+    font-weight: 400;
+}
+
+.ka-title {
+    font-family: 'Noto Sans Kannada';
+    font-weight: 600;
+}
+
+.en-title {
+    font-weight: 600;
+}
+
+.invocation {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 4rem 0rem;
+}
+
+.calvin {
+    font-family: "EB Garamond";
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin: 4rem 0rem;
+    letter-spacing: 0.04rem;
+}
+
+.languages {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+html[lang="sa"] body,
+html[lang="sa"] .post-content {
+    font-family: "Tiro Devanagari Sanskrit", "Sanskrit 2003", "Kohinoor Devanagari", serif;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+html[lang="sa"] h1,
+html[lang="sa"] h2,
+html[lang="sa"] h3 {
+    font-family: "Tiro Devanagari Sanskrit", serif;
+    font-weight: 600;
+}
+
+
+html[lang="kn"] body,
+html[lang="kn"] .post-content {
+    font-family: "Noto Sans Kannada";
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+html[lang="kn"] h1,
+html[lang="kn"] h2,
+html[lang="kn"] h3 {
+    font-family: "Noto Sans Kannada", serif;
+    font-weight: 600;
 }
