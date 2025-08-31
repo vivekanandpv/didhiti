@@ -1,6 +1,7 @@
 baseURL = "https://didhiti.in/"
 title = "Didhiti"
 theme = "PaperMod"
+copyright = "© 2025 Didhiti"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 [pagination]
