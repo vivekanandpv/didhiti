@@ -99,11 +99,21 @@ footer {
 
 .calvin {
     font-family: "EB Garamond";
-    text-align: center;
     font-size: 1.4rem;
     font-style: italic;
-    margin: 4rem 0rem;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.quote {
+margin: 4rem 0rem;
+text-align: center;
+}
+
+.quote-attribute {
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
 }
 
 .languages {
