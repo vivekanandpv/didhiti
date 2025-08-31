@@ -35,6 +35,6 @@ enableRobotsTXT = true
   disableSpecial1stPost = true
   disableAnchoredHeadings = true
   showLanguageSwitcher = true
-
+  mainSections = ["posts"]
 [outputs]
   home = ["HTML", "RSS"]
